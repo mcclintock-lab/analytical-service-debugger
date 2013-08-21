@@ -6,6 +6,7 @@ class DebugTab extends ReportTab
   className: 'debug'
   template: templates.demo
   dependencies: ['*']
+  timeout: 120000
 
   render: () ->
     # create random data for visualization
